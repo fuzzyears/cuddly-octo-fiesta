@@ -9,5 +9,5 @@ I don't know if this is useful or a very obtuse solution, but it was nice to lea
 1. Add dependencies to requirements.txt.
 2. Modify src as desired.
 3. `docker build -t image-name`
-4. `docker run -v "$PWD/src:/code" name`
+4. `docker run -v "$PWD/src:/code" image-name`
 5. Re-run step 3 to see any updates to src.
